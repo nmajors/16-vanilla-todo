@@ -1,19 +1,14 @@
 let submitButton = document.querySelector("#submitButton");
 let toDoArray = [];
 
-class Todo {
-  constructor(item) {
-    this.item = item;
-    this.completed = false;
-  }
-}
+import Todo from './modules/Todo';
 
+submitButton.addEventListener("click", function(createToDoArray) {
+  createToDoArray.preventDefault();
+  let item = (document.querySelector("#todoText").value);
+  let todo = new Todo(item);
+  toDoArray.push(todo);
+  document.querySelector("#todoText").value = "";
 
-submitButton.addEventListener("click", function(createToDoArray){
-createToDoArray.preventDefault();
-let item = (document.querySelector("#todoText").value);
-let todo = new Todo(item);
-toDoArray.push(item);
-document.querySelector("#todoText").value = "";
-return toDoArray;
+  // return toDoArray;
 });

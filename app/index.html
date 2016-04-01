@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>16-vanilla-todo</title>
-    <link rel="stylesheet" href="/styles/main.css">
-  </head>
-  <body>
+
+<head>
+  <meta charset="utf-8">
+  <title>16-vanilla-todo</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/styles/main.css">
+</head>
+
+<body>
+  <div class="container">
     <form>
-      <input type="text" id="todoText" value="" autocomplete="off">
+      <input  type="text" id="todoText" value="" autocomplete="off" placeholder="To do:">
       <button type="submit" id="submitButton">Submit</button>
+    </form>
       <section id="toDoList"></section>
 
 
+  </div>
 
-    </form>
-    <script src="/js/app.js" charset="utf-8"></script>
-  </body>
+  <script src="/js/app.js" charset="utf-8"></script>
+</body>
+
 </html>
