@@ -15,13 +15,18 @@ class Todo {
 
     //vv this is where brain stopped, should probably be in markComplete() vv
     div.addEventListener("click", function(e){
-      div.classList.add("completed")
+      if(this.classList.contains("completed")){
+        this.classList.remove("completed");
+      }else{
+        this.classList.add("completed");
+      }
     });
   }
 
   // markComplete() {
-  //   let todoEntry = document.querySelector(".todoEntry");
-  //   if (this.completed) {
+  //   let todoEntries = document.querySelectorAll(".todoEntry");
+  //   todoEntries.forEach(function(entry) {
+  // if (this.completed) {
   //     todoEntry.classlist.add("completed");
   //   }
   // }

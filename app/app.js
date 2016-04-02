@@ -9,10 +9,9 @@ submitButton.addEventListener("click", function(createToDoArray) {
   let todo = new Todo(item);
   toDoArray.push(todo);
   document.querySelector("#todoText").value = "";
-
-  // return toDoArray;
 });
 
+//below are just some of the ideas I was fooling around with
 
 //on click, this.completed=true
 // let todoEntries = document.querySelectorAll(".todoEntry");

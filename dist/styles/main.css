@@ -1,7 +1,7 @@
 .container {
   padding-top: 10px;
   font-family: Helvetica;
-  background-color: #75d1af;
+  background-color: #77c4a8;
   width: 300px;
   display: table;
   margin: 0 auto;
@@ -27,7 +27,7 @@ button {
   border-top: 1px solid #aaa; }
 
 .todoEntry {
-  background-color: #77efc3;
+  background-color: #9ed3c0;
   display: block;
   text-align: left;
   font-size: 1.2rem;
@@ -40,12 +40,12 @@ button {
   text-decoration: line-through; }
 
 div:nth-child(even) {
-  background-color: #6de0b6; }
+  background-color: #77c4a8; }
 
 .container {
   padding-top: 10px;
   font-family: Helvetica;
-  background-color: #75d1af;
+  background-color: #77c4a8;
   width: 300px;
   display: table;
   margin: 0 auto;
@@ -71,7 +71,7 @@ button {
   border-top: 1px solid #aaa; }
 
 .todoEntry {
-  background-color: #77efc3;
+  background-color: #9ed3c0;
   display: block;
   text-align: left;
   font-size: 1.2rem;
@@ -84,4 +84,4 @@ button {
   text-decoration: line-through; }
 
 div:nth-child(even) {
-  background-color: #6de0b6; }
+  background-color: #77c4a8; }
