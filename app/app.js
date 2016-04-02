@@ -12,3 +12,15 @@ submitButton.addEventListener("click", function(createToDoArray) {
 
   // return toDoArray;
 });
+
+
+//on click, this.completed=true
+// let todoEntries = document.querySelectorAll(".todoEntry");
+//  todoEntries.forEach(entry, )
+
+//
+// document
+//   .querySelectorAll(".todoEntry")
+//   .addEventListener("click", function(markComplete){
+//
+//   });

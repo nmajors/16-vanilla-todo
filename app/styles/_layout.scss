@@ -42,8 +42,10 @@ button {
   padding-left: 15px;
   padding-top: 5px;
   padding-bottom: 5px;
+}
 
-
+.completed{
+  text-decoration: line-through;
 }
 
 div:nth-child(even) {
